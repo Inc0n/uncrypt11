@@ -22,8 +22,8 @@ void showAlert(NSString *title, NSString *message){
 void copyFile(const char *from, const char *to){
 	FILE *src = fopen(from, "rb");
 	if(!src){
-	   showAlert(@"Error", @"copyFile: couldn't open src"); 
-	   exit(1);
+	   showAlert(@"Error", @"copyFile: couldn't open src");
+	   return;
 	}
 
 	// find size of this file
@@ -45,7 +45,7 @@ void copyFile(const char *from, const char *to){
 
 	if(!dst){
 	   showAlert(@"Error", @"copyFile: couldn't open dst");
-	   exit(1);
+	   return;
 	}
 
 	size_t wrote = fwrite(srcBuffer, sizeof(char), fileSize, dst);
