@@ -1,7 +1,7 @@
 # uncrypt11
 #### @hackedbyshmoo
 
-## Before I started writing this, I decided to use this opportunity to learn to use Vim. I haven't touched the source with anything other than Vim. It is my first time using Vim, so the source code may be a bit messy/unoptimized!
+## Before I started writing this, I decided to use this opportunity to learn to use Vim. I haven't touched the source with anything other than Vim. It is my first time using Vim, so the source code will be messy and probably riddled with mistakes.
 
 ![alt text](https://raw.githubusercontent.com/shmoo419/uncrypt11/master/IMG_0899.PNG)
 
