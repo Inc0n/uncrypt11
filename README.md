@@ -1,6 +1,8 @@
 # uncrypt11
 #### @hackedbyshmoo
 
+## Before I started writing this, I decided to use this opportunity to learn to use Vim. I haven't touched the source with anything other than Vim. It is my first time using Vim, so the source code may be a bit messy/unoptimized!
+
 ![alt text](https://raw.githubusercontent.com/shmoo419/uncrypt11/master/IMG_0899.PNG)
 
 The iOS 11 version of https://github.com/shmoo419/uncrypt. Since the kernel kills untrusted binaries, we have to decrypt while the app is running. Thankfully this means it is easier to get the ASLR slide.
@@ -19,5 +21,3 @@ Add my repo, http://shmoo419.github.io/, and install uncrypt11. To use:
 ```
 
 If you're on iOS 10 or below, you should use the version I linked above or the many alternatives.
-
-Before I started writing this, I decided to use this opportunity to learn to use Vim. I haven't touched the source with anything other than Vim. It is my first time using Vim, so the source code may be a bit messy/unoptimized!
